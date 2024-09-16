@@ -1,0 +1,41 @@
+body, html, *{
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.press-start-2p-regular{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.container{
+    width: 90px;
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    margin: 3rem 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-size: cover;
+}
+
+.card-img{
+    object-fit: cover;
+}
+
+.card-header{
+    margin-top: 1.2rem;
+}
+
+.card-price{
+    margin-bottom: 1.2rem;
+}
