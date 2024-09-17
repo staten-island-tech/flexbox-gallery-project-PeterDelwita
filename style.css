@@ -1,5 +1,5 @@
 body, html, *{ /* Setup */
-    font-size: 10px;
+    font-size: 16px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,24 +12,27 @@ body, html, *{ /* Setup */
   }
 
 .container{
-    width: 30%;
+    width: 100%;
     margin: 2rem auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-between;
+    align-items: center;
+    background-image: cover;
 }
 
 .card{
-    height: 60rem;
+    height: 20rem;
     width: 30%;
     border: 3px solid black;
-    border-radius: 2px; /* Rounder border */
+    border-radius: 2rem;
+    margin: 2rem auto;
+    padding: 4rem auto;
     display: flex;
-    margin: 3rem 0;
-    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    background-size: cover;
+    background-image: cover;
 }
 
 .card-img{
@@ -40,8 +43,10 @@ body, html, *{ /* Setup */
 
 .card-header{
     margin-top: 1.2rem; /* Adds space between header and top of card */
+    font-size: 30px;
 }
 
-.card-price{
-    margin-bottom: 1.2rem; /* Adds space between card price and bottom of card */
+.card-description{
+    margin-bottom: 1.2rem; /* Adds space between card description and bottom of card */
+    font-size: 12px;
 }
