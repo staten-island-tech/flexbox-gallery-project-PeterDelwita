@@ -3,6 +3,7 @@ body, html, *{ /* Setup */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 .press-start-2p-regular{
@@ -10,6 +11,11 @@ body, html, *{ /* Setup */
     font-weight: 400;
     font-style: normal;
   }
+
+body{
+    font-family: "Press Start 2P", system-ui;
+    background-image: linear-gradient(rgba(242, 198, 20, 0.349), rgba(57, 236, 81, 0.3)), url("images/fruit-stand-1326506.png");
+}
 
 .container{
     width: 100%;
@@ -32,6 +38,7 @@ body, html, *{ /* Setup */
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    background-color: RGB(152,245,249);
     background-image: cover;
 }
 
