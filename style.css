@@ -3,7 +3,6 @@ body, html, *{ /* Setup */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 .press-start-2p-regular{
@@ -14,7 +13,7 @@ body, html, *{ /* Setup */
 
 body{
     font-family: "Press Start 2P", system-ui;
-    background-image: linear-gradient(rgba(242, 198, 20, 0.349), rgba(57, 236, 81, 0.3)), url("images/fruit-stand-1326506.png");
+    background-image: linear-gradient(rgba(242, 198, 20, 0.349), rgba(57, 236, 81, 0.3)), url("images/fruit-stand-1326506.png"); /* Use linear-gradient to give your images background colors. It prevents them from clashing with the site's other elements. */
 }
 
 .container{
@@ -34,23 +33,25 @@ body{
     border-radius: 2rem;
     margin: 2rem auto;
     padding: 4rem auto;
+    box-shadow: 40px, 40px, 20px, rgb(rgb(0, 191, 255));
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     background-color: RGB(152,245,249);
     background-image: cover;
+    
 }
 
 .card-img{
     width: 100%;
     height: 50%;
-    object-fit: cover;
+    object-fit: contain; /* Contain prevents the image from getting cut off on our cards and looking weird, so you see the full image without it making the card look weird. */
 }
 
 .card-header{
     margin-top: 1.2rem; /* Adds space between header and top of card */
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .card-description{
