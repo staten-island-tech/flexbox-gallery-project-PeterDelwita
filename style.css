@@ -13,7 +13,7 @@ body, html, *{ /* Setup */
 
 body{
     font-family: "Press Start 2P", system-ui;
-    background-image: linear-gradient(rgba(242, 198, 20, 0.349), rgba(57, 236, 81, 0.3)), url("images/fruit-stand-1326506.png"); /* Use linear-gradient to give images background colors; prevents them from clashing with the site's other elements */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.686), rgba(120, 9, 164, 0.868)), url("images/galaxy.png"); /* Use linear-gradient to give images background colors; prevents them from clashing with the site's other elements */
 }
 
 .container{
@@ -50,7 +50,7 @@ body{
 }
 
 .card:hover{ /* Hover is a pseudo-class; if your cursor is on the element, the hover command can do things such as change the background color */
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .card-header{
