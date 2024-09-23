@@ -35,7 +35,7 @@ body{
 
 .card{
     height: 20rem;
-    width: 30%;
+    width: 22%;
     border: 3px solid black;
     border-radius: 2rem;
     margin: 2rem auto;
@@ -68,4 +68,22 @@ body{
 .card-description{
     margin-bottom: 1.2rem; /* Adds space between card description and bottom of card */
     font-size: 12px;
+}
+
+#wings
+
+.animation{
+    height: 0.5rem;
+    width: 0.5rem;
+    animation: demo 1s infinite;
+    position: absolute;
+}
+
+@keyframes{
+    0% {
+        left: 30%;
+        bottom: 20%;
+        transform: scale(0.75);
+        background-color: blue;
+    }
 }
