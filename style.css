@@ -95,12 +95,12 @@ body {
 }
 
 #watermelon:hover {
-  transform: scale(0.8);
+  transform: rotate(0.75turn) scale(0.7);
   background-color: aquamarine;
 }
 
-.card-mcgonagall:hover{
-  transform: rotate(2.5turn);
+#mcgonagall:hover {
+  transform: rotate(2.5turn) skew(20deg, 20deg);
   background-color: rebeccapurple;
 }
 
